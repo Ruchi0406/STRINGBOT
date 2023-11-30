@@ -10,7 +10,7 @@ async def users_sql(_, msg: Message):
     await add_served_user(msg.from_user.id)
 
 
-@Client.on_message(filters.user(OWNER_ID) & filters.command("stats"))
+@Client.on_message(filters.user(OWNER_ID) & filters.command("stats", "gstats"))
 async def _stats(_, msg: Message):
     users = len(await get_served_users())
     await msg.reply_text(f"ꖴ ᴄᴜʀʀᴇɴᴛ sᴛᴀᴛs ᴏғ sᴛʀɪɴɢ ɢᴇɴ ʙᴏᴛ ➠\n\n {users} ᴜsᴇʀs", quote=True)
