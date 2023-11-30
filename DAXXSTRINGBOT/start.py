@@ -13,6 +13,7 @@ async def start(bot: Client, msg: Message):
     await bot.send_message(
         chat_id=msg.chat.id,
         text=f"""๏ нᴇʏ {msg.from_user.mention}, ɴɪᴄᴇ ᴛᴏ ᴍᴇᴇᴛ ʏᴏᴜ !
+        ━━━━━━━━━━━━━━━━━━━━━━
 
 ๏ ɪ ᴀᴍ ‌ ‌{me2} ᴀɴᴅ ɪ ʜᴀᴠᴇ ᴛᴇʟᴇᴛʜᴏɴ ᴀɴᴅ ᴘʏʀᴏɢʀᴀᴍ sᴇssɪᴏɴ ɢᴇɴᴇʀᴀᴛɪɴɢ ғᴇᴀᴛᴜʀᴇs.
 
