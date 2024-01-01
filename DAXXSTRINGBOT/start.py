@@ -18,15 +18,15 @@ async def start(bot: Client, msg: Message):
 
 ๏ ᴛʜɪs ɪs ᴍᴏsᴛ ᴘᴏᴡᴇʀғᴜʟʟ ᴀɴᴅ ᴛʀᴜsᴛᴇᴅ sᴛʀɪɴɢ sᴇssɪᴏɴ ɢᴇɴᴇʀᴀᴛᴏʀ ʙᴏᴛ.
 
-๏ 💌 ᴍᴀᴅᴇ ʙʏ ➠ [ʀᴏʏ ᴇᴅɪᴛx](tg://user?id={OWNER_ID}) !""",
+๏ 💌 ᴍᴀᴅᴇ ʙʏ ➠ [𒆜➛🇷𝙰𝙳𝙸𝚄𝚇✧˚ · .⚭༉‧₊˚.](tg://user?id={OWNER_ID}) !""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(text="💌 ɢᴇɴᴇʀᴀᴛᴇ sᴛʀɪɴɢ 💌", callback_data="generate")
                 ],
                 [
-                    InlineKeyboardButton("sᴜᴘᴘᴏʀᴛ", url="https://t.me/THE_FRIENDZ"),
-                    InlineKeyboardButton("ᴜᴘᴅᴀᴛᴇ", url="https://t.me/ROY_EDITX")
+                    InlineKeyboardButton("sᴜᴘᴘᴏʀᴛ", url="https://t.me/The_Radiux_Support"),
+                    InlineKeyboardButton("ᴜᴘᴅᴀᴛᴇ", url="https://t.me/The_Radiux_Network")
                 ]
             ]
         ),
